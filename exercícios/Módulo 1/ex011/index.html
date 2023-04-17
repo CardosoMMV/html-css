@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e duminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/imagem-pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/imagem-media.png" type="image/png">
+        <img src="imagens/imagem-grande.png" alt="imagem flexível">
+    </picture>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/djonga-deus-dará.mp3" type="audio/mpeg">
+        <source src="midia/djonga-deus-dará.ogg" type="audio/ogg">
+        <source src="midia/djonga-deus-dará.wav" type="audio.wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+        <a href="midia/djonga-deus-dará.mp3"></a>
+    </audio>
+</body>
+</html>
