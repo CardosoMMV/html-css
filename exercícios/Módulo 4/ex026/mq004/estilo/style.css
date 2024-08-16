@@ -43,7 +43,7 @@ img{
     margin: auto;
 }
 
-#phone, #tablet, #print, #pc, #tv{
+#tablet, #print, #pc, #tv{
     display: none;
 }
 
