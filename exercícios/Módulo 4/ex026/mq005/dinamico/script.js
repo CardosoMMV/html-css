@@ -1,1 +1,3 @@
-fun
+function clickMenu() {
+    menuLista.classList.toggle('ocultado')
+}

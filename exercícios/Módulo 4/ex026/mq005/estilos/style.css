@@ -19,8 +19,12 @@ header > h1{
     text-align: center;
 }
 
-menu{
+menu.ocultado{
     display: none;
+}
+
+menu{
+    display: block;
 }
 
 menu > ul{
