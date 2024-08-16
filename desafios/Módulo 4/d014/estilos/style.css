@@ -68,12 +68,35 @@ main{
 .campo{
     background-color: #5F2C82;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
 .campo > label{
     display: none;
+}
+
+.campo > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input{
+    background-color: rgba(240, 240, 240, 0.822);
+    font-size: 1em;
+    width: calc(100% - 50px);
+    height: 90%;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px;
+
+    transform: translateY(-10px); /*Semrpe que se tiver uma transformação para fazer, faça por último, como última propriedade a ser configurada*/
+}
+
+.campo > input:focus-within{
+    background-color: white;
 }
 
 form > input[type = submit]{
