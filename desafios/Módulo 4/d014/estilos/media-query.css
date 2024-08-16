@@ -9,9 +9,14 @@
         width: 80vw;
         display: flex;
     }
+    
     #imagem{
         width: 60%;
         height: 100vh;
+    }
+
+    #formulario{
+        width: 50%;
     }
 }
 
@@ -19,6 +24,10 @@
     #login{
         width: 900px;
         flex-direction: row-reverse;
+    }
+
+    #formulario{
+        width: 50%;
     }
 
     #formulario > h1{
